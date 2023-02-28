@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectSQL {
-  static final String DB_URL = "jdbc:mysql://mysqlflexserver-ecad-pt-dev-opssandbox-we1094.mysql.database.azure.com:3306/ipam?useSSL=true&requireSSL=false";
-  static final String USER = "opssandboxadmin1094@mysqlflexserver-ecad-pt-dev-opssandbox-we1094";
-  static final String PASS = "KA5[%8?<8oyTaVktiAp!";
+  static final String DB_URL = "jdbc:mysql://testmysqlapps.mysql.database.azure.com:3306/ipam?useSSL=true&requireSSL=false";
+  static final String USER = "azureuser@testmysqlapps";
+  static final String PASS = "admin@2023";
 
   public static void main(String[] args) {
     try {
