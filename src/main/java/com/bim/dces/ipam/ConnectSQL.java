@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectSQL {
-  static final String DB_URL = "jdbc:mysql://testmysqlapps.mysql.database.azure.com:3306/ipam?useSSL=true&requireSSL=false";
-  static final String USER = "azureuser@testmysqlapps";
+  static final String DB_URL = "jdbc:mysql://testmysqlapps.mysql.database.azure.com:3306/sample?useSSL=true&requireSSL=false";
+  static final String USER = "azureuser";
   static final String PASS = "admin@2023";
 
   public static void main(String[] args) {
